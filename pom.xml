@@ -38,19 +38,6 @@
         </developer>
     </developers>
 
-    <distributionManagement>
-        <repository>
-            <id>s3</id>
-            <name>Releases S3</name>
-            <url>s3://${hubspot.s3.bucket}/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>s3</id>
-            <name>Snapshots S3</name>
-            <url>s3://${hubspot.s3.bucket}/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <plugin>
